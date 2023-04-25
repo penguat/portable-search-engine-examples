@@ -1,0 +1,15 @@
+html
+  head
+    title Hello Search world
+  body
+    h1 Portable Search Engine web example
+    form(action="/index", method="post")
+      label(for="text") What would you like to index?
+      br
+      input(type="text", name="text", id="text")
+      button(type="submit") Index it!
+    form(action="/search", method="get")
+      label(for="query") What would you like to search for?
+      br
+      input(type="text", name="query", id="query")
+      button(type="submit") Show me the results!
