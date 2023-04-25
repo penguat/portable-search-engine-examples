@@ -1,0 +1,28 @@
+{
+  "name": "command-line",
+  "version": "1.0.0",
+  "description": "command line examples with the portable search engine",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/penguat/portable-search-engine-examples.git"
+  },
+  "author": "Alex Addison",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/penguat/portable-search-engine-examples/issues"
+  },
+  "homepage": "https://github.com/penguat/portable-search-engine-examples#readme",
+  "dependencies": {
+    "portable-search-engine": "file:../../portable-search-engine"
+  },
+  "devDependencies": {
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.4"
+  }
+}
