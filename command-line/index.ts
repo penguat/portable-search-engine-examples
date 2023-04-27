@@ -19,7 +19,7 @@ await (async () => {
     else if (command == "search") {
       let query = await rl.question("What would you like to search for?\n");
       let results = engine.search(query);
-      console.log(results)
+      console.log(results.results)
     }
 
     command = await rl.question("What's your command? add/search/exit?\n")

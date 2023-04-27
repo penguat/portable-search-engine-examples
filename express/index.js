@@ -22,7 +22,7 @@ app.post('/index', (req, res) => {
 
 app.get('/search', (req, res) => {
   let results = searchEngineInstance.search(req.query.query)
-  res.render('results', { results: results })
+  res.render('results', results)
 })
 
 app.listen(port, () => {
